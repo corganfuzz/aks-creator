@@ -27,8 +27,8 @@ jobs:
         with:
           subscriptionId: ${{ secrets.SUBSCRIPTION_ID }}
           resourceGroupName: eastTwo
-          template: ./aks/deploy.json
-          parameters: ./aks/deployparams.json
+          # template: ./aks/deploy.json
+          # parameters: ./aks/deployparams.json
 
       - uses: azure/setup-kubectl@v1
         with:
